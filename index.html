@@ -6,6 +6,7 @@
             body {
                 background-image: url("https://geographical.co.uk/media/k2/items/cache/852c2fa5e5468761c3ae8b796ca9be85_XL.jpg");
                 color: rgb(45, 45, 45);
+                background-size: cover;
                 padding: 10px;
                 font-family: 'Times New Roman', Times, serif;
             }
@@ -42,21 +43,26 @@
             }
          
             /* main container area beneath menu */
-            main {
-                background: rgb(245, 238, 219);
+            #contentPart {
+                margin-left: 500px;
+                background: rgb(255, 238, 238);
                 display: flex;
             }
             .sidebar {
                 margin-right: 25px;
                 padding: 10px;
             }
-            .sidebar-img {
-                width: 200px;
-                margin-right: 20px;
+                
+            
+            /*.sidebar-img {
+                width: 10px;
+                margin-right: 10px;
             }
+            */
             .content {
                 flex: 1;
-                padding: 15px;
+                padding: 5px;
+                background: rgba(214, 214, 214, 0.85);
             }
             #interests {
                 border: 4px rgb(201, 19, 19) silverridge;
@@ -64,7 +70,9 @@
             }
             h2, h3 {
                 margin-left: 25px;
-                
+            }
+            .titleBlock{
+                margin-left: 25px;
             }
            
          </style>
@@ -76,36 +84,37 @@
             <nav>
                 <h1>Reid's Website Thing</h1>
 
-                <ul>
-                    <li>
-                        <a href="http://index.html">Home</a>
+                <ul id="nav-ul">
+                    <li class="nav-li">
+                        <a href="index.html">Home</a>
                     </li>
-                    <li>
-                        <a href="http://portfolio.html">Portfolio</a>
+                    <li class="nav-li">
+                        <a href="portfolio.html">Portfolio</a>
                     </li>
                 </ul>
             </nav>
 
             <main>
-                <!--sidebar-->
                 <div>
-                    <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-w-8eZjU2gdkkR4Ri0dmDOeXOhxYKG4tYpwBrrjTKalz0NOnRZjKOUazHzhL3b8oNEEA:https://cdn.nerdschalk.com/wp-content/uploads/2020/09/how-to-remove-profile-picture-on-zoom-12.png%3Fwidth%3D500&usqp=CAU> 
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-w-8eZjU2gdkkR4Ri0dmDOeXOhxYKG4tYpwBrrjTKalz0NOnRZjKOUazHzhL3b8oNEEA:https://cdn.nerdschalk.com/wp-content/uploads/2020/09/how-to-remove-profile-picture-on-zoom-12.png%3Fwidth%3D500&usqp=CAU"> 
                 </div>
-
+            
                 <!--content-->
-                <div>
-                    <h2>Reid Jourdan</h2>
-                    <p>High School Student</p>
+                <div class="content">
+                    <h2 class="titleBlock">Reid Jourdan</h2>
+                    <p class="titleBlock">High School Student</p>
 
-                    <!--Intrests-->
-                    <div>
-                        <h3>Interests</h3>
-                            
-                            <ul>
-                                <li>Hiking</li>
-                                <li>Video Games</li>
-                                <li>Robotics</li>
-                            </ul>
+                    <!-- Intrests  -->
+                    <div id="Interests"> 
+                        <h3>Interests</h3>   
+                        <ul>
+                            <li>Hiking and Backpacking</li>
+                            <li>White Water Rafting</li>
+                            <li>Canoeing</li>
+                            <li>Robotics</li>
+                            <li>Sleeping</li>
+                            <li>Video Games</li>
+                        </ul>
                     </div>
                 </div>
             </main>
