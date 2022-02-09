@@ -6,7 +6,7 @@
     
     /**
      * init: Initialize all cannons.
-     *
+     * 
      * GOAL: Add at least 3 cannons to make your level challenging. 
      * 
      * Use the createCannon Function to create cannons for the level. 
@@ -28,7 +28,8 @@
         
         // example: 
         createCannon("top", 450);
-        
+        createCannon("bottom", 700);
+        createCannon("right", 375)
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////

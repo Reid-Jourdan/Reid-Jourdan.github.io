@@ -7,7 +7,7 @@
     
     /**
      * init: This function initializes the platforms for the level.
-     * 
+     *  
      * GOAL: Add as many platforms necessary to make your level challenging.
      * 
      * Use the createPlatform Function to create platforms for the level. 
@@ -37,8 +37,11 @@
         createPlatform(0, game.world.height - 32, 3, 2);    // DO NOT DELETE
 
         // example:
-        createPlatform(400, 250);
+        createPlatform(400, 250, .4);
         createPlatform(170, 460, 0.5);
+        createPlatform(600, 550, .25);
+        createPlatform(675, 400, .1);
+        createPlatform(50, 100, .5)
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
