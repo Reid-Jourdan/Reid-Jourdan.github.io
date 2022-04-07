@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Taco Shop</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+            #menu, #take-order {
+                display: flex;
+                flex-direction: row;
+            }
+
+            #take-order > p {
+                padding-right: 10px;
+            }
+
+            .menu-item {
+                border: 3px solid gray;
+            }
+
+            .menu-item > h4,
+            .menu-item > img {
+                padding: 10px;
+                padding-bottom: 5px;
+            }
+
+            img {
+                width: 250px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="all-contents">
+            <nav>
+                <h1>Taco Shop</h1>
+                <div id="take-order">
+                    <p>When you're ready to place your order, click here: </p>
+                    <button>Place Order</button>
+                </div>
+            </nav>
+            <main>
+                <h3>Menu</h3>
+                <div id="menu">
+                    <div id="three-tacos" class="menu-item">
+                        <h4> #1 - Three Tacos</h4>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-phbs_RqH7HoN_2XLKiTXd0zTOeMGLncug&usqp=CAU">
+                        <h4>$6.99</h4>
+                    </div>
+                    <div id="five-tacos" class="menu-item">
+                        <h4>#2 - Five Tacos</h4>
+                        <img src="https://www.chewboom.com/wp-content/uploads/2020/04/Taco-John%E2%80%99s-Offers-5-Beef-Softshell-Tacos-For-5.55-From-May-1-Through-May-5-2020-678x381.jpg">
+                        <h4>$9.99</h4>
+                    </div>
+                    <div id="taco-burger" class="menu-item">
+                        <h4>#3 - Taco Burger</h4>
+                        <img src="https://belleofthekitchen.com/wp-content/uploads/2018/08/taco-sloppy-joes-square-500x500.jpg">
+                        <h4>$6.99</h4>
+                    </div>
+                    <div id="giant-burrito" class="menu-item">
+                        <h4>#4 - Giant Burrito</h4>
+                        <img src="https://cdn2.lamag.com/wp-content/uploads/sites/6/2014/06/mass1.jpg">
+                        <h4>$12.99</h4>
+                    </div> <div id="enchilada" class="menu-item">
+                        <h4>#5 - Enchilada</h4>
+                        <img src="https://cdn.leitesculinaria.com/wp-content/uploads/2021/04/easy-chicken-enchiladas-sauce.jpg.optimal.jpg">
+                        <h4>$10.99</h4>
+                    </div>
+                    <div id="hummus" class="menu-item">
+                        <h4>#6 - One of a Kind Golden Hummus made with Real Gold</h4>
+                        <img src="https://thebusybaker.ca/wp-content/uploads/2020/12/golden-turmeric-hummus-fb-ig-5-scaled.jpg">
+                        <h4>$20,000.00</h4>
+                    </div>
+                    <div id="3d-taco" class="menu-item">
+                        <h4>#7 - 3D Printed Taco</h4>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI543Ixnu8Uu_8XeaxmawIImLAmBvwEmbbAw&usqp=CAU">
+                        <h4>$4.49</h4>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script>
+        </script>
+    </body>
+</html>
